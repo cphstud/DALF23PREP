@@ -1,0 +1,5 @@
+dkSent=read.csv("2_headword_headword_polarity.csv")
+
+df=readRDS("fogreviews.rds")
+#
+saveRDS(dkSent, "dkSenti.rds")
